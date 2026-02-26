@@ -4,6 +4,7 @@ import HeroOne from "@/components/hero/HeroOne";
 import HeroTwo from "@/components/hero/HeroTwo";
 import Project from "@/app/project/Project";
 import ProjectOne from "./project/ProjectOne";
+import ProjectTwo from "./project/ProjectTwo";
 
 
 
@@ -11,11 +12,12 @@ import ProjectOne from "./project/ProjectOne";
 export default function Home() {
   return (
     // <Navbar />
-    // <Hero />
+    <Hero />
     // <HeroOne />
     // <HeroTwo />
     // <Project />
-    <ProjectOne />
+    // <ProjectOne />
+    // <ProjectTwo />
 
   );
 }

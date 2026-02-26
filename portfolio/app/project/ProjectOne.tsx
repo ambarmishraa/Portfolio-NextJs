@@ -54,8 +54,8 @@ const ProjectOne = () => {
                         <div className="absolute inset-0 z-10">
                             <div className="w-full h-full">
                                 <Image
-                                    src="/pro-1.png"
-                                    alt="Amandeep Illustration"
+                                    src="/projectOne-1.png"
+                                    alt="projectOne-1"
                                     fill
                                     className="object-cover object-[15%_center]"
                                     priority
@@ -67,8 +67,8 @@ const ProjectOne = () => {
                         <div className="absolute inset-0 z-10">
                             <div className="w-full h-full ">
                                 <Image
-                                    src="/pro-2.png"
-                                    alt="Amandeep Illustration"
+                                    src="/projectOne-2.png"
+                                    alt="projectOne-2"
                                     fill
                                     className="object-cover object-[85%_center]"
                                     priority
