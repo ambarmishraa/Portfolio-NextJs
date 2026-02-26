@@ -38,3 +38,16 @@ body {
 .animate-marquee-left {
   animation: marqueeLeft 10s linear infinite;
 }
+
+.random-color{
+  
+  color:#43C7C0 !important;
+}
+
+.random-color-black{
+  color: #000000 !important;
+}
+
+.bg-random-color{
+  background-color: #43C7C0 !important;
+}
