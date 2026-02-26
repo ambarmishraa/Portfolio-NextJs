@@ -8,7 +8,7 @@ const HeroOne = () => {
 
   {/* 1. Background Split (Row 1 only) */}
   <div className="absolute inset-0 flex flex-col z-0">
-      <div className="h-[65%] flex">
+      <div className="h-[100%] flex">
           <div className="w-1/2 bg-white h-full" />
           <div className="w-1/2 bg-black h-full" />
       </div>
@@ -37,7 +37,7 @@ const HeroOne = () => {
       <div className="flex justify-between items-end pb-10">
           {/* Quote */}
           <div className="max-w-[280px]">
-              <span className="text-7xl font-serif block leading-none mix-difference">“</span>
+              <span className="text-7xl font-serif block leading-none mix-difference random-color">“</span>
               <p className="text-sm text-gray-600 mt-[-10px] pointer-events-auto">
                   Ambar&apos;s Exceptional product design ensure our website&apos;s success. <br />
                   <span className="font-extrabold text-black">Highly Recommended</span>
@@ -57,8 +57,8 @@ const HeroOne = () => {
 
  {/* Row 2 (Bottom overlay with stacked text) */}
 <div className="absolute bottom-0 left-0 w-full h-[35%] bg-black z-20 flex flex-col items-center justify-end px-10 pb-6">
-    <p className="text-white text-lg mb-2">GET STARTED</p>
-    <p className="text-white text-lg">Highly Recommended</p>
+    <p className="text-white text-lg mb-2 ">GET STARTED</p>
+    <p className="text-[16vw] font-black leading-none flex  h-[7vh]">PROJECTS</p>
 </div>
 
 </section>
