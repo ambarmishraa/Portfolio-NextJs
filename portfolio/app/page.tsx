@@ -11,11 +11,11 @@ import ProjectOne from "./project/ProjectOne";
 export default function Home() {
   return (
     // <Navbar />
-    <Hero />
+    // <Hero />
     // <HeroOne />
     // <HeroTwo />
     // <Project />
-    // <ProjectOne />
+    <ProjectOne />
 
   );
 }

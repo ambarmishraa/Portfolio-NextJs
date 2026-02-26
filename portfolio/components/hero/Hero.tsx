@@ -28,21 +28,21 @@ const Hero = () => {
 
       {/* 3. Giant Background Text Layer */}
       <div className="absolute inset-0 flex items-center z-10 pointer-events-none overflow-hidden">
-  <div className="flex whitespace-nowrap animate-marquee-left">
-    
-    <h1 className="text-[16vw] font-black leading-none flex random-color">
-      <span className="outline-text-black mr-10">SOFTWARE</span>
-      <span className="outline-text-white mr-20">DEVELOPER</span>
-    </h1>
+        <div className="flex whitespace-nowrap animate-marquee-left">
 
-    {/* Duplicate for seamless loop */}
-    <h1 className="text-[16vw] font-black leading-none flex random-color">
-      <span className="outline-text-black mr-10 ">SOFTWARE</span>
-      <span className="outline-text-white mr-20">DEVELOPER</span>
-    </h1>
+          <h1 className="text-[16vw] font-black leading-none flex random-color">
+            <span className="outline-text-black mr-10">SOFTWARE</span>
+            <span className="outline-text-white mr-20">DEVELOPER</span>
+          </h1>
 
-  </div>
-</div>
+          {/* Duplicate for seamless loop */}
+          <h1 className="text-[16vw] font-black leading-none flex random-color">
+            <span className="outline-text-black mr-10 ">SOFTWARE</span>
+            <span className="outline-text-white mr-20">DEVELOPER</span>
+          </h1>
+
+        </div>
+      </div>
 
       {/* 4. Character Image Layer */}
       <div className="absolute inset-0 flex items-center justify-center z-20 mt-10">

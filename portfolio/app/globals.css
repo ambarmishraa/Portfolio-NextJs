@@ -40,7 +40,6 @@ body {
 }
 
 .random-color{
-  
   color:#43C7C0 !important;
 }
 
@@ -50,4 +49,12 @@ body {
 
 .bg-random-color{
   background-color: #43C7C0 !important;
+}
+
+.project-random-color{
+  background-color: #EA5B5F !important;
+}
+
+.transparent-color{
+  background-color: transparent;
 }
