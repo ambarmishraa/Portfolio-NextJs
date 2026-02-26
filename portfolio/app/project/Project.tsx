@@ -2,7 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-const HeroThree = () => {
+const Project = () => {
     return (
         <section className="relative w-full h-screen overflow-hidden bg-black">
 
@@ -42,4 +42,4 @@ const HeroThree = () => {
     );
 };
 
-export default HeroThree;
+export default Project;

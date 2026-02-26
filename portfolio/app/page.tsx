@@ -2,7 +2,8 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/hero/Hero";
 import HeroOne from "@/components/hero/HeroOne";
 import HeroTwo from "@/components/hero/HeroTwo";
-import HeroThree from "@/components/hero/HeroThree";
+import Project from "@/app/project/Project";
+import ProjectOne from "./project/ProjectOne";
 
 
 
@@ -10,10 +11,11 @@ import HeroThree from "@/components/hero/HeroThree";
 export default function Home() {
   return (
     // <Navbar />
-    <Hero />
+    // <Hero />
     // <HeroOne />
     // <HeroTwo />
-    // <HeroThree />
+    // <Project />
+    <ProjectOne />
 
   );
 }
