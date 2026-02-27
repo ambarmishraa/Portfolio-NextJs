@@ -5,6 +5,7 @@ import HeroTwo from "@/components/hero/HeroTwo";
 import Project from "@/app/project/Project";
 import ProjectOne from "./project/ProjectOne";
 import ProjectTwo from "./project/ProjectTwo";
+import ProjectThree from "./project/ProjectThree"
 
 
 
@@ -12,12 +13,13 @@ import ProjectTwo from "./project/ProjectTwo";
 export default function Home() {
   return (
     // <Navbar />
-    <Hero />
+    // <Hero />
     // <HeroOne />
     // <HeroTwo />
     // <Project />
     // <ProjectOne />
     // <ProjectTwo />
+    <ProjectThree/>
 
   );
 }
