@@ -13,13 +13,13 @@ import ProjectThree from "./project/ProjectThree"
 export default function Home() {
   return (
     // <Navbar />
-    // <Hero />
+    <Hero />
     // <HeroOne />
     // <HeroTwo />
     // <Project />
     // <ProjectOne />
     // <ProjectTwo />
-    <ProjectThree/>
+    // <ProjectThree/>
 
   );
 }
