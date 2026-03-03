@@ -19,10 +19,17 @@ const Hero = () => {
         <ul className="flex items-center gap-8 text-sm font-bold text-white">
           <li className="cursor-pointer hover:opacity-70">Home</li>
           <li className="cursor-pointer hover:opacity-70">About</li>
-          <li className="cursor-pointer hover:opacity-70">Resume</li>
-          <li className="bg-white text-black px-3 py-1 rounded-sm text-xs font-black bg-random-color">
-            HISTORY
-          </li>
+          <li className="cursor-pointer hover:opacity-70">History</li>
+          <li>
+      <a
+        href="/Ambar_Mishra_CV.pdf"  // PDF should be in public folder
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-white text-black px-3 py-1 rounded-sm text-xs font-black bg-random-color hover:opacity-80 transition"
+      >
+        RESUME
+      </a>
+    </li>
         </ul>
       </nav>
 
