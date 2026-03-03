@@ -31,7 +31,7 @@ const HeroOne = () => {
       >
         <div className="relative w-full h-[100vh] max-w-4xl">
           <Image
-            src="/hero-img.png"
+            src="/ambar-update.png"
             alt="Amandeep Illustration"
             fill
             className="object-contain"
