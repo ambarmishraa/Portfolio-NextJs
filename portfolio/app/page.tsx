@@ -12,10 +12,12 @@ import ProjectThree from "./project/ProjectThree"
 
 export default function Home() {
   return (
+    <div className="h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth">
+      <Hero />
+      <HeroOne />
+      <HeroTwo />
+    </div>
     // <Navbar />
-    <Hero />
-    // <HeroOne />
-    // <HeroTwo />
     // <Project />
     // <ProjectOne />
     // <ProjectTwo />
