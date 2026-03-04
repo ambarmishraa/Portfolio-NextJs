@@ -64,7 +64,7 @@ const Hero = () => {
         transition={{ duration: 0.8 }}
         viewport={{ once: false }}
       >
-        <div className="relative w-full h-[100vh] max-w-4xl">
+        <div className="relative w-full h-screen max-w-full mx-auto">
           <Image
             src="/ambar-update.png"
             alt="Amandeep Illustration"
