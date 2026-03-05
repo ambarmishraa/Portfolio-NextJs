@@ -31,7 +31,7 @@ const HeroTwo = () => {
       >
         <div className="relative w-full h-screen max-w-full mx-auto">
           <Image
-            src="/ambar-update.png"
+            src="/my-photo.png"
             alt="Amandeep Illustration"
             fill
             className="object-contain"
