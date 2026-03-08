@@ -19,7 +19,7 @@ export default function Home() {
       <Project />
       <ProjectOne />
       <ProjectTwo />
-      {/* <ProjectThree /> */}
+      <ProjectThree />
     </div>
     // <Navbar />
     // <Project />
