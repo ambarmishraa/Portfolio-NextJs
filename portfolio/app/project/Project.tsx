@@ -1,10 +1,12 @@
-
+"use client"
 import React from 'react';
 import Image from 'next/image';
+import { motion } from "framer-motion";
+
 
 const Project = () => {
     return (
-        <section className="relative w-full h-screen overflow-hidden bg-black">
+        <motion.section className="relative w-full h-screen overflow-hidden bg-black snap-start">
 
             {/* 1. Background Split (Row 1 only) */}
             <div className="absolute inset-0 flex flex-col z-0">
@@ -38,7 +40,7 @@ const Project = () => {
                 <p className="text-[16vw] font-black leading-none flex  h-[100vh]">PROJECTS</p>
             </div>
 
-        </section>
+        </motion.section>
     );
 };
 

@@ -16,6 +16,10 @@ export default function Home() {
       <Hero />
       <HeroOne />
       <HeroTwo />
+      <Project />
+      <ProjectOne />
+      <ProjectTwo />
+      {/* <ProjectThree /> */}
     </div>
     // <Navbar />
     // <Project />
