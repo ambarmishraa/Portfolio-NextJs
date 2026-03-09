@@ -45,21 +45,27 @@ const ProjectThree = () => {
 
                 <div className="w-1/2 bg-white h-full" />
                 <div className="w-1/2 bg-black h-full" />
-            </div>
 
+
+            </div>
 
 
             <div className="absolute bottom-10 left-[5%] w-[90%] h-[75%] z-20 flex flex-col items-center justify-center px-10 pb-6 project-random-color">
 
+
+
                 <div className="absolute bottom-0 w-full h-full bg-white z-20 flex justify-end ">
 
+                    <div className="absolute  left-1/2 w-1/3 -translate-x-1/2 z-30 text-center">
+                        <p className="text-1xl random-color">The Finance App has developed a groundbreaking problem-solving framework that not only allows individuals to effortlessly monitor and manage their expenses but also empowers them to devise a comprehensive financial strategy to effectively save money, thereby enhancing their overall financial well-being and stability.</p>
+                    </div>
 
                     <div className="flex w-full h-full">
 
                         {/* RED BOX - image touching TOP */}
-                        <div className="w-1/2 bg-red-900 flex items-start justify-center overflow-hidden">
+                        <div className="w-1/2 flex items-start justify-center overflow-hidden">
                             <Image
-                                src="/projectTwo-1.png"
+                                src="/project-3/white-1.png"
                                 alt="Amandeep Illustration"
                                 width={800}
                                 height={800}
@@ -69,9 +75,9 @@ const ProjectThree = () => {
                         </div>
 
                         {/* BLACK BOX - image touching BOTTOM */}
-                        <div className="w-1/2 bg-black flex items-end justify-center overflow-hidden">
+                        <div className="w-1/2 flex items-end justify-center overflow-hidden">
                             <Image
-                                src="/projectTwo-1.png"
+                                src="/project-3/white-2.png"
                                 alt="Amandeep Illustration"
                                 width={800}
                                 height={800}
@@ -81,13 +87,12 @@ const ProjectThree = () => {
 
                     </div>
 
-
                     <div className="flex w-full h-full">
 
                         {/* RED BOX - image touching TOP */}
-                        <div className="w-1/2 bg-red-900 flex items-end justify-center overflow-hidden">
+                        <div className="w-1/2 bg-black flex items-end justify-center overflow-hidden">
                             <Image
-                                src="/projectTwo-1.png"
+                                src="/project-3/black-1.png"
                                 alt="Amandeep Illustration"
                                 width={800}
                                 height={800}
@@ -99,7 +104,7 @@ const ProjectThree = () => {
                         {/* BLACK BOX - image touching BOTTOM */}
                         <div className="w-1/2 bg-black flex items-start justify-center overflow-hidden">
                             <Image
-                                src="/projectTwo-1.png"
+                                src="/project-3/black-2.png"
                                 alt="Amandeep Illustration"
                                 width={800}
                                 height={800}
