@@ -2,6 +2,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaPlay, FaCode } from 'react-icons/fa';
+import Image from 'next/image';
 import PropTypes from 'prop-types';
 
 import placeholder from '../../assets/png/placeholder.png';
@@ -35,7 +36,13 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                 <h2 id={slug} style={{ color: theme.tertiary }}>
                     {name}
                 </h2>
-                <img src={image ? image : placeholder.src} alt={name} />
+                <Image
+                    src={image || placeholder}
+                    alt={name}
+                    width={300}
+                    height={200}
+                    style={{ objectFit: 'cover', width: '100%', height: 'auto' }}
+                />
                 <div className='project--showcaseBtn'>
                     <motion.a
                         href={demo}
@@ -88,7 +95,7 @@ SingleProject.propTypes = {
     tags: PropTypes.arrayOf(PropTypes.string),
     code: PropTypes.string,
     demo: PropTypes.string,
-    image: PropTypes.string,
+    image: PropTypes.any,
     theme: PropTypes.object.isRequired,
 };
 
