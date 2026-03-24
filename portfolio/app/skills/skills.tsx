@@ -1,3 +1,5 @@
+"use client"
+
 import React, { useContext } from 'react';
 import Marquee from "react-fast-marquee";
 
@@ -6,6 +8,8 @@ import './Skills.css';
 // import { ThemeContext } from '../contexts/ThemeContext';
 import { skillsData } from './skillsData';
 import { skillsImage } from './skillsImage';
+import { motion } from "framer-motion";
+
 
 function Skills() {
 
@@ -17,7 +21,7 @@ function Skills() {
     // }
 
     return (
-        <div id ="skills"className="skills" >
+        <motion.section id ="skills"className="skills snap-start" >
             <div className="skillsHeader">
                 <h2 >Skills</h2>
             </div>
@@ -43,7 +47,7 @@ function Skills() {
                     </Marquee>
                 </div>
             </div>
-        </div>
+        </motion.section>
     )
 }
 

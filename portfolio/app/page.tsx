@@ -7,6 +7,7 @@ import ProjectOne from "./project/ProjectOne";
 import ProjectTwo from "./project/ProjectTwo";
 import ProjectThree from "./project/ProjectThree"
 import Skills from "./skills/skills";
+import Projects from "./Projects/Projects";
 
 
 
@@ -22,7 +23,9 @@ export default function Home() {
       <ProjectOne />
       <ProjectTwo />
       <ProjectThree /> */}
+      <Hero />
       <Skills />
+      <Projects />
 
     </div>
     // <Navbar />
